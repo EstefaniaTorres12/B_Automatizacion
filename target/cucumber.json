@@ -1,0 +1,89 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 105105600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verificar la autenticacion exitosa en la pagina de AlmaSoft",
+        "description": "",
+        "id": "autenticar-en-la-pagina-de-almasoft;verificar-la-autenticacion-exitosa-en-la-pagina-de-almasoft",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5082657600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el usuario se encuentra en la pagina de inicio de sesion de AlmaSoft",
+            "match": {
+              "location": "IniciarsesionStepDefinitions.queElUsuarioSeEncuentreEnLaPaginaDeInicioSesionDeSesionDeAlmaSoft()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5412181000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ingrese las credenciales correctas (Correo electronico y contraseña)",
+            "match": {
+              "location": "IniciarsesionStepDefinitions.ingreseLasCredencialesCorrectasCorreoElectronicoYContraseña(CredencialesInicioSesion\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "correo",
+                  "contrasena"
+                ]
+              },
+              {
+                "cells": [
+                  "cliente@gmail.com",
+                  "123456"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 651468900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.",
+            "match": {
+              "location": "IniciarsesionStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@autenticacion"
+          }
+        ]
+      }
+    ],
+    "name": "Autenticar en la pagina de AlmaSoft",
+    "description": "  Como usuario de AlmaSoft\n  Quiero autenticar en el portal de AlmaSoft\nPara poder acceder al contenido y funcionalidades disponibles segun mi rol y cuenta.",
+    "id": "autenticar-en-la-pagina-de-almasoft",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/Cliente/iniciarsesion.feature",
+    "tags": []
+  }
+]
