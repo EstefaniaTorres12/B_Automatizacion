@@ -12,7 +12,7 @@ Cuando ingrese las credenciales correctas
 
 Entonces se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.
 
-Escenario: Eliminar producto del carrito
-Cuando agrega un producto al carrito
-Y elimina el producto del carrito
-Entonces el carrito debe quedar vacío
+  Escenario: Eliminar producto del carrito
+    Cuando agrega un producto al carrito
+    Y elimina el producto del carrito
+    Entonces el carrito debe quedar vacío

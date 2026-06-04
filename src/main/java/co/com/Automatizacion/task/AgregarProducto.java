@@ -28,6 +28,10 @@ public class AgregarProducto implements Task {
 
                 Click.on(BTN_AGREGAR_CHAQUETA),
 
+                WaitUntil.the(BTN_CARRITO, isClickable())
+                        .forNoMoreThan(5)
+                        .seconds(),
+
                 Click.on(BTN_CARRITO)
         );
     }

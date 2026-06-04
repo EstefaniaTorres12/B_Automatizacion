@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
+import static co.com.Automatizacion.userinterfaces.AgregarProductoCarritoUI.BTN_CARRITO;
 import static co.com.Automatizacion.userinterfaces.EliminarProductoUI.BTN_ELIMINAR_PRODUCTO;
 
 public class EliminarProducto implements Task {
@@ -17,6 +18,7 @@ public class EliminarProducto implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
+                Click.on(BTN_CARRITO),
                 Click.on(BTN_ELIMINAR_PRODUCTO)
         );
     }

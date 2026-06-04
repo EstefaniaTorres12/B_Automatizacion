@@ -12,4 +12,5 @@ public class EliminarProductoUI {
     public static final Target TXT_CARRITO_VACIO =
             Target.the("carrito vacio")
                     .located(By.xpath("//div[@class='cart_item']"));
+
 }
