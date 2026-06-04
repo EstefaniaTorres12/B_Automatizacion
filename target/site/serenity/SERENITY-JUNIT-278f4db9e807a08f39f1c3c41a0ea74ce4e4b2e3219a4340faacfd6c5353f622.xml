@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Autenticar en la pagina de AlmaSoft" skipped="0" tests="1" time="29.02" timestamp="2026-06-04 08:47:43"><testcase name="Verificar la autenticacion exitosa en la pagina de AlmaSoft"><failure message="Expected validacion login&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected validacion login&#13;
 Expected: is &lt;true&gt;&#13;
      but: was &lt;false&gt;</failure><system-err>Expected validacion login&#13;
-Expected: is &lt;true&gt;&#13;
-     but: was &lt;false&gt;&#13;
-co.com.AutomatizacionAlmaSoft.stepsdefinitions.IniciarsesionStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamente(IniciarsesionStepDefinitions.java:32)&#13;
-✽.se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.(src/test/resources/features/iniciarsesion.feature:16)&#13;
+    Expected: is &lt;true&gt;&#13;
+    but: was &lt;false&gt;&#13;
+    co.com.Automatizacion.stepsdefinitions.IniciarsesionStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamente(IniciarsesionStepDefinitions.java:32)&#13;
+    ✽.se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su
+    pagina.(src/test/resources/features/iniciarsesion.feature:16)&#13;
 </system-err></testcase></testsuite>
