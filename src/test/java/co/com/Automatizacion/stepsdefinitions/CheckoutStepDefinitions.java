@@ -3,7 +3,7 @@ package co.com.Automatizacion.stepsdefinitions;
 import co.com.Automatizacion.models.DatosCheckout;
 import co.com.Automatizacion.questions.ValidacionCheckout;
 import co.com.Automatizacion.task.RealizarCheckout;
-import cucumber.api.java.ast.Cuando;
+import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Entonces;
 
 import java.util.List;

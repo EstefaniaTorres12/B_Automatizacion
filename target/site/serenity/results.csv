@@ -1,5 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Agregar producto al carrito","Agregar producto al carrito","SUCCESS","2026-06-04T15:51:21.78-05:00[America/Bogota]","0.0","8.59"
-"Eliminar producto del carrito","Eliminar producto del carrito","FAILURE","2026-06-04T16:17:32.376-05:00[America/Bogota]","0.0","29.49"
+"Realizar checkout","Realizar checkout","SUCCESS","2026-06-04T16:48:14.032-05:00[America/Bogota]","0.0","20.15"
+"Eliminar producto del carrito","Eliminar producto del carrito","SUCCESS","2026-06-04T16:21:00.155-05:00[America/Bogota]","0.0","45.27"
 "Autenticar en la pagina de AlmaSoft","Verificar la autenticacion exitosa en la pagina de AlmaSoft","FAILURE","2026-06-04T08:47:43.779-05:00[America/Bogota]","0.0","29.02"
 "Autenticar en la pagina de","Verificar la autenticacion exitosa en la pagina de AlmaSoft","SUCCESS","2026-06-04T09:07:38.31-05:00[America/Bogota]","0.0","9.02"
