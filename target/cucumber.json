@@ -1,9 +1,9 @@
 [
   {
-    "line": 4,
+    "line": 3,
     "elements": [
       {
-        "line": 9,
+        "line": 7,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,41 +11,53 @@
         "steps": [
           {
             "result": {
-              "duration": 6194822600,
+              "duration": 7193946700,
               "status": "passed"
             },
-            "line": 10,
-            "name": "que el usuario se encuentra en la pagina de inicio de sesion de AlmaSoft",
+            "line": 8,
+            "name": "que el usuario se encuentra en la pagina de inicio de sesion de Swag Labs",
             "match": {
-              "location": "IniciarsesionStepDefinitions.queElUsuarioSeEncuentreEnLaPaginaDeInicioSesionDeSesionDeAlmaSoft()"
+              "location": "IniciarsesionStepDefinitions.queElUsuarioSeEncuentraEnLaPaginaDeInicioDeSesionDeSwagLabs()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 9052715900,
+              "duration": 2316652100,
               "status": "passed"
             },
-            "line": 11,
-            "name": "ingrese las credenciales correctas (Correo electronico y contraseña)",
+            "line": 9,
+            "name": "ingrese las credenciales correctas",
             "match": {
-              "location": "IniciarsesionStepDefinitions.ingreseLasCredencialesCorrectasCorreoElectronicoYContraseña(CredencialesInicioSesion\u003e)"
+              "location": "IniciarsesionStepDefinitions.ingreseLasCredencialesCorrectas(CredencialesInicioSesion\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "correo",
-                  "contrasena"
+                  "username",
+                  "pasword"
                 ]
               },
               {
                 "cells": [
-                  "bianca@gmail.com",
-                  "123456"
+                  "standard_user",
+                  "secret_sauce"
                 ]
               }
             ],
             "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 306403000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.",
+            "match": {
+              "location": "IniciarsesionStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamente()"
+            },
+            "keyword": "Entonces "
           }
         ]
       },
@@ -53,7 +65,7 @@
         "before": [
           {
             "result": {
-              "duration": 133954200,
+              "duration": 91804000,
               "status": "passed"
             },
             "match": {
@@ -62,69 +74,49 @@
           }
         ],
         "line": 18,
-        "name": "Adquirir un plan funerario exitosamente",
+        "name": "Agregar producto al carrito",
         "description": "",
-        "id": "adquirir-plan-funerario;adquirir-un-plan-funerario-exitosamente",
+        "id": "agregar-producto-al-carrito;agregar-producto-al-carrito",
         "type": "scenario",
         "keyword": "Escenario",
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.AssertionError: \r\nExpected: an element that is visible\r\n     but: no matching element found by css: button.plan-modal-button\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:316)\r\n\tat net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)\r\n\tat net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)\r\n\tat net.serenitybdd.screenplay.Actor.perform(Actor.java:229)\r\n\tat net.serenitybdd.screenplay.Actor.performSilently(Actor.java:209)\r\n\tat net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)\r\n\tat co.com.AutomatizacionAlmaSoft.task.AdquirirPlanFunebre.performAs(AdquirirPlanFunebre.java:37)\r\n\tat co.com.AutomatizacionAlmaSoft.task.AdquirirPlanFunebre$ByteBuddy$MUOTBdcK.performAs$accessor$C32m0toL(Unknown Source)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)\r\n\tat net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)\r\n\tat co.com.AutomatizacionAlmaSoft.task.AdquirirPlanFunebre$ByteBuddy$MUOTBdcK.performAs(Unknown Source)\r\n\tat net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)\r\n\tat net.serenitybdd.screenplay.Actor.perform(Actor.java:229)\r\n\tat net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)\r\n\tat co.com.AutomatizacionAlmaSoft.stepsdefinitions.PlanFunebreStepDefinitions.seleccioneUnPlanFunerarioYCompleteLaInformacionDePago(PlanFunebreStepDefinitions.java:21)\r\n\tat ✽.seleccione un plan funerario y complete la informacion de pago(src/test/resources/features/Cliente/PlanFunebre.feature:19)\r\n",
-              "duration": 42549065100,
-              "status": "failed"
+              "duration": 892566800,
+              "status": "passed"
             },
             "line": 19,
-            "name": "seleccione un plan funerario y complete la informacion de pago",
+            "name": "agrega un producto al carrito",
             "match": {
-              "location": "PlanFunebreStepDefinitions.seleccioneUnPlanFunerarioYCompleteLaInformacionDePago(DataTable)"
+              "location": "AgregarproductocarritoStepDefinitions.agregaUnProductoAlCarrito()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "metodoPago",
-                  "entidadBancaria",
-                  "tipoPersona",
-                  "correo",
-                  "planSeleccionado"
-                ]
-              },
-              {
-                "cells": [
-                  "PSE",
-                  "Bancolombia",
-                  "Natural",
-                  "bianca@gmail.com",
-                  "Plan Premiun"
-                ]
-              }
-            ],
             "keyword": "Cuando "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 147378000,
+              "status": "passed"
             },
-            "line": 24,
-            "name": "se debe verificar que el plan fue adquirido correctamente.",
+            "line": 20,
+            "name": "debe visualizar el producto en el carrito",
             "match": {
-              "location": "PlanFunebreStepDefinitions.seDebeVerificarQueElPlanFueAdquiridoCorrectamente()"
+              "location": "AgregarproductocarritoStepDefinitions.debeVisualizarElProductoEnElCarrito()"
             },
             "keyword": "Entonces "
           }
         ],
         "tags": [
           {
-            "name": "@adquirirPlan"
+            "name": "@autenticacion"
           }
         ]
       }
     ],
-    "name": "Adquirir plan funerario",
-    "description": "  Como usuario cliente autenticado\n  Quiero adquirir un plan funerario\n  Para acceder a los beneficios ofrecidos por AlmaSoft",
-    "id": "adquirir-plan-funerario",
+    "name": "Agregar producto al carrito",
+    "description": "  Como usuario de Sawg Labs autenticado\n  Quiero agregar un producto a mi carrito",
+    "id": "agregar-producto-al-carrito",
     "keyword": "Característica",
-    "uri": "src/test/resources/features/Cliente/PlanFunebre.feature",
+    "uri": "src/test/resources/features/AgregarProductoCarrito.feature",
     "tags": []
   }
 ]

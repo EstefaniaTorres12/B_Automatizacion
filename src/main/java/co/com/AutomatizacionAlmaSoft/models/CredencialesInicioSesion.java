@@ -1,14 +1,14 @@
 package co.com.AutomatizacionAlmaSoft.models;
 
 public class CredencialesInicioSesion {
-    private String correo;
-    private String contrasena;
+    private String username;
+    private String pasword;
 
-    public String getCorreo() {
-        return correo;
+    public String getUsername() {
+        return username;
     }
 
-    public String getContrasena() {
-        return contrasena;
+    public String getPasword() {
+        return pasword;
     }
 }

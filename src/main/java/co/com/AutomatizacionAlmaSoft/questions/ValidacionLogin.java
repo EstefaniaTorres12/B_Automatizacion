@@ -14,7 +14,7 @@ public class ValidacionLogin implements Question<Boolean> {
             LoggerFactory.getLogger(ValidacionLogin.class);
 
 
-    private static  final String MENSAJE_ESPERADO ="Logged In Successfully";
+    private static  final String MENSAJE_ESPERADO ="Swag Labs";
 
     public static ValidacionLogin validacionLogin(){
         return new ValidacionLogin();

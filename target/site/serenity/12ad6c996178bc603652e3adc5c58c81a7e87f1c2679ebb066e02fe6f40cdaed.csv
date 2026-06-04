@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Autenticar en la pagina de AlmaSoft","Verificar la autenticacion exitosa en la pagina de AlmaSoft","SUCCESS","2026-06-01T19:38:38.827-05:00[America/Bogota]","0.0","26.83"
+"Agregar producto al carrito","Agregar producto al carrito","SUCCESS","2026-06-04T14:11:02.825-05:00[America/Bogota]","0.0","11.07"
+"Autenticar en la pagina de AlmaSoft","Verificar la autenticacion exitosa en la pagina de AlmaSoft","FAILURE","2026-06-04T08:47:43.779-05:00[America/Bogota]","0.0","29.02"
+"Autenticar en la pagina de","Verificar la autenticacion exitosa en la pagina de AlmaSoft","SUCCESS","2026-06-04T09:07:38.31-05:00[America/Bogota]","0.0","9.02"

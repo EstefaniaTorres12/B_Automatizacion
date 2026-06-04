@@ -31,16 +31,14 @@ public class Autenticarse implements Task {
 
         actor.attemptsTo(
 
-                Click.on(BTN_ABRIR_LOGIN),
-
                 Click.on(INPUT_USUARIO),
 
-                Enter.theValue(credenciales.get(0).getCorreo())
+                Enter.theValue(credenciales.get(0).getUsername())
                         .into(INPUT_USUARIO),
 
                 Click.on(INPUT_CREDENCIAL),
 
-                Enter.theValue(credenciales.get(0).getContrasena())
+                Enter.theValue(credenciales.get(0).getPasword())
                         .into(INPUT_CREDENCIAL),
 
                 Click.on(BTN_INICIOSESION)
@@ -48,7 +46,7 @@ public class Autenticarse implements Task {
 
         theActorInTheSpotlight().remember(
                 SesionVariable.usuario.toString(),
-                credenciales.get(0).getCorreo()
+                credenciales.get(0).getUsername()
         );
     }
 }
