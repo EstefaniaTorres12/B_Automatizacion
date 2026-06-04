@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.findby.By;
 public class AutenticacionUI extends PageObject {
 
     public static final Target BTN_ABRIR_LOGIN = Target.the("Boton abrir formulario login")
-            .located(By.xpath("//a[contains(.,'Iniciar Sesion')]"));
+            .located(By.xpath("//a[@href='/pages/IniciarSesion']"));
 
     public static final Target INPUT_USUARIO =
             Target.the("Ingreso del usuario")

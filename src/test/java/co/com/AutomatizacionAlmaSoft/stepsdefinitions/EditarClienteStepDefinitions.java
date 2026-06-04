@@ -18,7 +18,7 @@ public class EditarClienteStepDefinitions {
         List<DatosEditarCliente> datos = dataTable.asList(DatosEditarCliente.class);
 
         theActorInTheSpotlight().attemptsTo(
-                ActualizarPerfil.conLosDatos(datos.get(0))
+                ActualizarPerfil.conDatos(datos)
         );
     }
 

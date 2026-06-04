@@ -1,31 +1,40 @@
 package co.com.AutomatizacionAlmaSoft.models;
 
 public class DatosEditarCliente {
-    private String nombre;
-    private String correo;
-    private String telefono;
 
-    public String getNombre() {
-        return nombre;
+    private String primerNombre;
+    private String segundoNombre;
+    private String primerApellido;
+    private String segundoApellido;
+    private String correo;
+    private String direccion;
+    private String contrasena;
+
+    public String getPrimerNombre() {
+        return primerNombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getSegundoNombre() {
+        return segundoNombre;
+    }
+
+    public String getPrimerApellido() {
+        return primerApellido;
+    }
+
+    public String getSegundoApellido() {
+        return segundoApellido;
     }
 
     public String getCorreo() {
         return correo;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public String getTelefono() {
-        return telefono;
-    }
-
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public String getContrasena() {
+        return contrasena;
     }
 }

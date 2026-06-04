@@ -10,15 +10,15 @@ Característica: Adquirir plan funerario
     Dado que el usuario se encuentra en la pagina de inicio de sesion de AlmaSoft
     Cuando ingrese las credenciales correctas (Correo electronico y contraseña)
 
-      | Correo            | Contrasena |
-      | david14@gmail.com | 0123456789 |
+      | correo           | contrasena |
+      | bianca@gmail.com | 123456     |
 
   @adquirirPlan
 
   Escenario: Adquirir un plan funerario exitosamente
     Cuando seleccione un plan funerario y complete la informacion de pago
 
-      | MetodoPago | EntidadBancaria | TipoPersona | Correo            | PlanSeleccionado |
-      | PSE        | Bancolombia     | Natural     | david14@gmail.com | Plan Premiun      |
+      | metodoPago | entidadBancaria | tipoPersona | correo           | planSeleccionado |
+      | PSE        | Bancolombia     | Natural     | bianca@gmail.com | Plan Premiun     |
 
     Entonces se debe verificar que el plan fue adquirido correctamente.

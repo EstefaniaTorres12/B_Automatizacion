@@ -11,7 +11,7 @@ Característica: Editar o actualizar datos
     Cuando ingrese las credenciales correctas (Correo electronico y contraseña)
 
       | Correo            | Contrasena |
-      | david14@gmail.com | 0123456789 |
+      | david14@gmail.com | 0123456789           |
 
   @editarCliente
 
@@ -19,6 +19,6 @@ Característica: Editar o actualizar datos
     Cuando actualice los datos del perfil y haga click en "Guardar cambios"
 
       | PrimerNombre | SegundoNombre | PrimerApellido | SegundoApellido | Correo            | Direccion | Contrasena |
-      | David        | Steven        | Gonzales       | Roldan          | david14@gmail.com | Medellin  | 0123456789 |
+      | David        | Editado  2    | Gonzales       | Roldan          | david14@gmail.com | Bogota    | 0123456789 |
 
     Entonces se debe verificar que los datos fueron actualizados correctamente.

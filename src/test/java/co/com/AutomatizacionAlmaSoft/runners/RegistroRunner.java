@@ -2,16 +2,17 @@ package co.com.AutomatizacionAlmaSoft.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
-import cucumber.api.junit.Cucumber;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
+@RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/Cliente/Registrarse.feature",
-        glue = {"co.com.AutomatizacionAlmasoft.stepdefinitions", "co.com.AutomatizacionAlmaSoft.utils.hooks"},
-        plugin = {"pretty", "html:target/cucumber-reports"},
+        glue = {
+                "co.com.AutomatizacionAlmaSoft.stepsdefinitions",
+                "co.com.AutomatizacionAlmaSoft.utils.hooks"
+        },
         snippets = SnippetType.CAMELCASE
 )
-
 public class RegistroRunner {
 }

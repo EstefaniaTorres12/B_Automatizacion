@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Autenticar en la pagina de AlmaSoft","Verificar la autenticacion exitosa en la pagina de AlmaSoft","SUCCESS","2026-05-25T15:02:12.72-05:00[America/Bogota]","0.0","11.38"
+"Editar o actualizar datos","Actualizar un perfil exitosamente","SUCCESS","2026-06-03T10:19:33.656-05:00[America/Bogota]","0.0","32.77"
+"Registro de usuario en AlmaSoft","Verificar el registro exitoso de un cliente","SUCCESS","2026-06-01T17:44:07.457-05:00[America/Bogota]","0.0","14.37"
+"Autenticar en la pagina de AlmaSoft","Verificar la autenticacion exitosa en la pagina de AlmaSoft","SUCCESS","2026-06-01T19:38:38.827-05:00[America/Bogota]","0.0","26.83"

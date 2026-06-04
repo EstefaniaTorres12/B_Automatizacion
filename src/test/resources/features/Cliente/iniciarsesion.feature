@@ -12,5 +12,5 @@ Escenario: Verificar la autenticacion exitosa en la pagina de AlmaSoft
   Cuando ingrese las credenciales correctas (Correo electronico y contraseña)
 
     | correo            | contrasena |
-    | cliente@gmail.com | 123456     |
+    | david14@gmail.com | 0123456789           |
   Entonces  se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.
