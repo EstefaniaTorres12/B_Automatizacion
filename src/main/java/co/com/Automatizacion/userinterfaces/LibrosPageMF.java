@@ -3,7 +3,7 @@ package co.com.Automatizacion.userinterfaces;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class LibrosPage {
+public class LibrosPageMF {
 
     public static final Target BOTON_LIBROS =
             Target.the("Boton libros")

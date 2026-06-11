@@ -1,6 +1,6 @@
 package co.com.Automatizacion.questions;
 
-import co.com.Automatizacion.userinterfaces.LibrosPage;
+import co.com.Automatizacion.userinterfaces.LibrosPageMF;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
@@ -13,7 +13,7 @@ public class ValidacionLibros implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
 
-        return LibrosPage.LIBRO_ENCONTRADO
+        return LibrosPageMF.LIBRO_ENCONTRADO
                 .resolveFor(actor)
                 .isVisible();
     }

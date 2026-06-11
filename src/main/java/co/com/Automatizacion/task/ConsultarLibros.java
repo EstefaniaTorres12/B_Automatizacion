@@ -1,6 +1,6 @@
 package co.com.Automatizacion.task;
 
-import co.com.Automatizacion.userinterfaces.LibrosPage;
+import co.com.Automatizacion.userinterfaces.LibrosPageMF;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -21,18 +21,18 @@ public class ConsultarLibros implements Task {
 
         actor.attemptsTo(
 
-                WaitUntil.the(LibrosPage.BOTON_LIBROS, isVisible())
+                WaitUntil.the(LibrosPageMF.BOTON_LIBROS, isVisible())
                         .forNoMoreThan(10).seconds(),
 
-                Click.on(LibrosPage.BOTON_LIBROS),
+                Click.on(LibrosPageMF.BOTON_LIBROS),
 
-                WaitUntil.the(LibrosPage.CAMPO_BUSCAR, isVisible())
+                WaitUntil.the(LibrosPageMF.CAMPO_BUSCAR, isVisible())
                         .forNoMoreThan(10).seconds(),
 
                 Enter.theValue("flash")
-                        .into(LibrosPage.CAMPO_BUSCAR),
+                        .into(LibrosPageMF.CAMPO_BUSCAR),
 
-                Click.on(LibrosPage.BOTON_BUSCAR)
+                Click.on(LibrosPageMF.BOTON_BUSCAR)
 
         );
     }
