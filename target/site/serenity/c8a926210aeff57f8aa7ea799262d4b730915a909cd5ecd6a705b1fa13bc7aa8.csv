@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "Registrar usuarios en la Biblioteca","Verificar el registro de un usuario con correo existente","ERROR","2026-06-11T15:48:56.29-05:00[America/Bogota]","0.0","29.66"
+=======
+"Eliminar producto del carrito","Eliminar producto del carrito","ERROR","2026-06-04T16:07:49.017-05:00[America/Bogota]","0.0","29.05"
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304

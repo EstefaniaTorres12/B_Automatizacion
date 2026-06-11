@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Autenticar en la pagina de Biblioteca" skipped="0" tests="1" time="6.96" timestamp="2026-06-11 04:45:10"><testcase name="Verificar la autenticacion exitosa en la pagina de Biblioteca"/></testsuite>
+=======
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Autenticar en la pagina de Biblioteca" skipped="0" tests="1" time="7.61" timestamp="2026-06-11 02:00:15"><testcase name="Verificar la autenticacion exitosa en la pagina de Biblioteca"/></testsuite>
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304

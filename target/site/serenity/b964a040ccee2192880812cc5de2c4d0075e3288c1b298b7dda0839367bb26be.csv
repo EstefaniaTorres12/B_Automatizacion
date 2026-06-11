@@ -1,3 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Autenticar en la pagina de AlmaSoft","Verificar la autenticacion exitosa en la pagina de AlmaSoft","FAILURE","2026-06-04T08:47:43.779-05:00[America/Bogota]","0.0","29.02"
+<<<<<<< HEAD
 "Registrar usuarios en la Biblioteca","Verificar el registro de un usuario con correo existente","ERROR","2026-06-11T15:48:56.29-05:00[America/Bogota]","0.0","29.66"
+=======
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304

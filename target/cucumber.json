@@ -6,7 +6,11 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 98929700,
+=======
+              "duration": 86372800,
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
               "status": "passed"
             },
             "match": {
@@ -23,7 +27,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 4763341600,
+=======
+              "duration": 5034226000,
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
               "status": "passed"
             },
             "line": 11,
@@ -35,7 +43,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1550054000,
+=======
+              "duration": 1857044700,
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
               "status": "passed"
             },
             "line": 12,
@@ -61,7 +73,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 433928400,
+=======
+              "duration": 499041300,
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
               "status": "passed"
             },
             "line": 17,
@@ -85,6 +101,7 @@
     "keyword": "Característica",
     "uri": "src/test/resources/features/iniciarsesion.feature",
     "tags": []
+<<<<<<< HEAD
   },
   {
     "line": 3,
@@ -509,5 +526,7 @@
     "keyword": "Característica",
     "uri": "src/test/resources/features/registrarUsuario.feature",
     "tags": []
+=======
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
   }
 ]

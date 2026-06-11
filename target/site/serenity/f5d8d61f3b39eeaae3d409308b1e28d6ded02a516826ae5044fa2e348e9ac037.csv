@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "Autenticar en la pagina de Biblioteca","Verificar la autenticacion exitosa en la pagina de Biblioteca","ERROR","2026-06-11T15:09:06.925-05:00[America/Bogota]","0.0","7.42"
+=======
+"Autenticar en la pagina de Biblioteca","Verificar la autenticacion exitosa en la pagina de Biblioteca","FAILURE","2026-06-11T13:56:47.883-05:00[America/Bogota]","0.0","27.33"
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304

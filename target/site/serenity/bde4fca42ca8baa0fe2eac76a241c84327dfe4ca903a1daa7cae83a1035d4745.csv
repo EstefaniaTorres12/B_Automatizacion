@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "Registrar usuarios en la Biblioteca","Verificar el registro de un usuario con correo existente","PENDING","2026-06-11T15:40:15.014-05:00[America/Bogota]","0.0","9.01"
+=======
+"Realizar checkout","Realizar checkout","PENDING","2026-06-04T16:27:57.514-05:00[America/Bogota]","0.0","0.11"
+>>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
