@@ -3,69 +3,10 @@
     "line": 4,
     "elements": [
       {
-        "line": 9,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Antecedentes",
-        "steps": [
-          {
-            "result": {
-              "duration": 4931325600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "que el usuario se encuentra en la pagina de inicio de sesion de Swag Labs",
-            "match": {
-              "location": "IniciarsesionStepDefinitions.queElUsuarioSeEncuentraEnLaPaginaDeInicioDeSesionDeSwagLabs()"
-            },
-            "keyword": "Dado "
-          },
-          {
-            "result": {
-              "duration": 2373071100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "ingrese las credenciales correctas",
-            "match": {
-              "location": "IniciarsesionStepDefinitions.ingreseLasCredencialesCorrectas(CredencialesInicioSesion\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "pasword"
-                ]
-              },
-              {
-                "cells": [
-                  "standard_user",
-                  "secret_sauce"
-                ]
-              }
-            ],
-            "keyword": "Cuando "
-          },
-          {
-            "result": {
-              "duration": 366432300,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.",
-            "match": {
-              "location": "IniciarsesionStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamente()"
-            },
-            "keyword": "Entonces "
-          }
-        ]
-      },
-      {
         "before": [
           {
             "result": {
-              "duration": 121470300,
+              "duration": 98228700,
               "status": "passed"
             },
             "match": {
@@ -73,78 +14,62 @@
             }
           }
         ],
-        "line": 20,
-        "name": "Realizar checkout",
+        "line": 10,
+        "name": "Verificar la consulta de libros",
         "description": "",
-        "id": "realizar-checkout;realizar-checkout",
+        "id": "consultar-libros-en-la-biblioteca;verificar-la-consulta-de-libros",
         "type": "scenario",
         "keyword": "Escenario",
         "steps": [
           {
             "result": {
-              "duration": 1119808800,
+              "duration": 9446997800,
               "status": "passed"
             },
-            "line": 21,
-            "name": "agrega un producto al carrito",
+            "line": 12,
+            "name": "que el administrador se encuentra autenticado para consultar libros",
             "match": {
-              "location": "AgregarproductocarritoStepDefinitions.agregaUnProductoAlCarrito()"
+              "location": "ConsultarLibrosStepDefinitions.queElAdministradorSeEncuentraAutenticadoParaConsultarLibros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2249219900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "ingrese al modulo de libros",
+            "match": {
+              "location": "ConsultarLibrosStepDefinitions.ingreseAlModuloDeLibros()"
             },
             "keyword": "Cuando "
           },
           {
             "result": {
-              "duration": 10953657400,
+              "duration": 505658600,
               "status": "passed"
             },
-            "line": 22,
-            "name": "realiza el checkout",
+            "line": 14,
+            "name": "se debe verificar que se visualice el listado de libros",
             "match": {
-              "location": "CheckoutStepDefinitions.realizaElCheckout(DatosCheckout\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "nombre",
-                  "apellido",
-                  "codigoPostal"
-                ]
-              },
-              {
-                "cells": [
-                  "Estefa",
-                  "Torres",
-                  "110111"
-                ]
-              }
-            ],
-            "keyword": "Y "
-          },
-          {
-            "result": {
-              "duration": 132716800,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "debe visualizar la información de la compra",
-            "match": {
-              "location": "CheckoutStepDefinitions.debeVisualizarLaInformacionDeLaCompra()"
+              "location": "ConsultarLibrosStepDefinitions.seDebeVerificarQueSeVisualiceElListadoDeLibros()"
             },
             "keyword": "Entonces "
           }
         ],
         "tags": [
           {
-            "name": "@checkout"
+            "name": "@consultarLibros"
           }
         ]
       }
     ],
-    "name": "Realizar checkout",
-    "description": "  Como usuario de Swag Labs autenticado\n  Quiero realizar el proceso de checkout\n  Para continuar con la compra de un producto",
-    "id": "realizar-checkout",
+    "name": "Consultar libros en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los libros registrados\n  Para visualizar el catalogo de libros disponible",
+    "id": "consultar-libros-en-la-biblioteca",
     "keyword": "Característica",
-    "uri": "src/test/resources/features/Checkout.feature",
+    "uri": "src/test/resources/features/CU08_consultar_libros.feature",
     "tags": []
   }
 ]

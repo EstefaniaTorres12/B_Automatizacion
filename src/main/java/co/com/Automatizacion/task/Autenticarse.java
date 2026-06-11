@@ -1,29 +1,23 @@
 package co.com.Automatizacion.task;
 
-import co.com.Automatizacion.models.CredencialesInicioSesion;
-import co.com.Automatizacion.utils.SesionVariable;
-import net.serenitybdd.core.steps.Instrumented;
+import co.com.Automatizacion.models.CredencialesIniciarSesion;
+import co.com.Automatizacion.userinterfaces.LoginPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
-import java.util.List;
-
-import static co.com.Automatizacion.userinterfaces.AutenticacionUI.*;
-import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
-
 public class Autenticarse implements Task {
 
-    private List<CredencialesInicioSesion> credenciales;
+    private final CredencialesIniciarSesion credenciales;
 
-    public Autenticarse(List<CredencialesInicioSesion> credenciales) {
+    public Autenticarse(CredencialesIniciarSesion credenciales) {
         this.credenciales = credenciales;
     }
 
-    public static Autenticarse aute(List<CredencialesInicioSesion> credenciales) {
-        return Instrumented.instanceOf(Autenticarse.class)
-                .withProperties(credenciales);
+    public static Autenticarse con(CredencialesIniciarSesion credenciales) {
+        return Tasks.instrumented(Autenticarse.class, credenciales);
     }
 
     @Override
@@ -31,22 +25,14 @@ public class Autenticarse implements Task {
 
         actor.attemptsTo(
 
-                Click.on(INPUT_USUARIO),
+                Enter.theValue(credenciales.getEmail())
+                        .into(LoginPage.CAMPO_EMAIL),
 
-                Enter.theValue(credenciales.get(0).getUsername())
-                        .into(INPUT_USUARIO),
+                Enter.theValue(credenciales.getPassword())
+                        .into(LoginPage.CAMPO_PASSWORD),
 
-                Click.on(INPUT_CREDENCIAL),
+                Click.on(LoginPage.BOTON_INGRESAR)
 
-                Enter.theValue(credenciales.get(0).getPasword())
-                        .into(INPUT_CREDENCIAL),
-
-                Click.on(BTN_INICIOSESION)
-        );
-
-        theActorInTheSpotlight().remember(
-                SesionVariable.usuario.toString(),
-                credenciales.get(0).getUsername()
         );
     }
 }
