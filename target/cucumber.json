@@ -6,7 +6,226 @@
         "before": [
           {
             "result": {
-              "duration": 93844100,
+              "duration": 84761100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verificar la consulta de prestamos activos",
+        "description": "",
+        "id": "consultar-prestamos-activos-en-la-biblioteca;verificar-la-consulta-de-prestamos-activos",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9370270400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que el usuario ha iniciado sesion correctamente en la Biblioteca",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.queElUsuarioHaIniciadoSesionCorrectamenteEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 619956200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "ingrese al modulo de prestamos",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.ingreseAlModuloDePrestamos()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 503736100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "se debe verificar que se visualice el listado de prestamos activos",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.seDebeVerificarQueSeVisualiceElListadoDePrestamosActivos()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarPrestamosActivos"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar prestamos activos en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los prestamos activos\n  Para visualizar los prestamos vigentes registrados en el sistema",
+    "id": "consultar-prestamos-activos-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/CU05_consultar_prestamos_activos.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4479700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verificar la consulta de prestamos por usuario",
+        "description": "",
+        "id": "consultar-prestamos-por-usuario-en-la-biblioteca;verificar-la-consulta-de-prestamos-por-usuario",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6726202500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que el usuario ha iniciado sesion correctamente en la Biblioteca",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.queElUsuarioHaIniciadoSesionCorrectamenteEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1311795800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingrese al modulo de usuarios y consulte los prestamos de un usuario",
+            "match": {
+              "location": "ConsultarPrestamosPorUsuarioStepDefinitions.ingreseAlModuloDeUsuariosYConsulteLosPrestamosDeUnUsuario()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 335800200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "se debe verificar que se visualice el detalle de prestamos del usuario",
+            "match": {
+              "location": "ConsultarPrestamosPorUsuarioStepDefinitions.seDebeVerificarQueSeVisualiceElDetalleDePrestamosDelUsuario()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarPrestamosPorUsuario"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar prestamos por usuario en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los prestamos de un usuario\n  Para visualizar los prestamos asociados al usuario",
+    "id": "consultar-prestamos-por-usuario-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/CU06_consultar_prestamos_por_usuario.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2516700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verificar la consulta de prestamos vencidos",
+        "description": "",
+        "id": "consultar-prestamos-vencidos-en-la-biblioteca;verificar-la-consulta-de-prestamos-vencidos",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6670397900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que el usuario ha iniciado sesion correctamente en la Biblioteca",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.queElUsuarioHaIniciadoSesionCorrectamenteEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1219910100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingrese al modulo de prestamos y consulte los prestamos vencidos",
+            "match": {
+              "location": "ConsultarPrestamosVencidosStepDefinitions.ingreseAlModuloDePrestamosYConsulteLosPrestamosVencidos()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 391018900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "se debe verificar que se visualice el listado de prestamos vencidos",
+            "match": {
+              "location": "ConsultarPrestamosVencidosStepDefinitions.seDebeVerificarQueSeVisualiceElListadoDePrestamosVencidos()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarPrestamosVencidos"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar prestamos vencidos en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los prestamos vencidos\n  Para visualizar los prestamos que excedieron la fecha de devolución",
+    "id": "consultar-prestamos-vencidos-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/CU07_consultar_prestamos_vencidos.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3014000,
               "status": "passed"
             },
             "match": {
@@ -23,7 +242,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10149623000,
+              "duration": 6811397800,
               "status": "passed"
             },
             "line": 12,
@@ -35,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 2489895900,
+              "duration": 2107730100,
               "status": "passed"
             },
             "line": 13,
@@ -47,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 623101100,
+              "duration": 351021500,
               "status": "passed"
             },
             "line": 14,
@@ -70,6 +289,517 @@
     "id": "consultar-libros-en-la-biblioteca",
     "keyword": "Característica",
     "uri": "src/test/resources/features/CU08_consultar_libros.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1446200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verificar la autenticacion exitosa en la pagina de Biblioteca",
+        "description": "",
+        "id": "autenticar-en-la-pagina-de-biblioteca;verificar-la-autenticacion-exitosa-en-la-pagina-de-biblioteca",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4550474200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el usuario se encuentra en la pagina de inicio de sesion de Biblioteca",
+            "match": {
+              "location": "IniciarsesionStepDefinitions.queElUsuarioSeEncuentraEnLaPaginaDeInicioDeSesionDeBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2101140400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ingrese las credenciales correctas",
+            "match": {
+              "location": "IniciarsesionStepDefinitions.ingreseLasCredencialesCorrectas(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin@biblioteca.com",
+                  "demo123"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 433895100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.",
+            "match": {
+              "location": "IniciarsesionStepDefinitions.seDebeVerificarQueElUsuarioHayaSidoAutenticadoCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@autenticacion"
+          }
+        ]
+      }
+    ],
+    "name": "Autenticar en la pagina de Biblioteca",
+    "description": "  Como usuario de Swag Labs\n  Quiero autenticar en el portal de Sawg Labs\nPara poder acceder al contenido",
+    "id": "autenticar-en-la-pagina-de-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/iniciarsesion.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 6581528300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que el administrador ha iniciado sesion en la Biblioteca",
+            "match": {
+              "location": "LoginComunStepDefinitions.queElAdministradorHaIniciadoSesionEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 695191700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el administrador se encuentra en la pagina de prestamos",
+            "match": {
+              "location": "PrestamoStepDefinitions.queElAdministradorSeEncuentraEnLaPaginaDePrestamos()"
+            },
+            "keyword": "Y "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3730600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verificar la devolución exitosa de un libro",
+        "description": "",
+        "id": "registrar-devolución-de-libros;verificar-la-devolución-exitosa-de-un-libro",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 585887600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "registra la devolucion de un libro prestado",
+            "match": {
+              "location": "DevolucionStepDefinitions.registraLaDevolucionDeUnLibroPrestado()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 185871000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "se debe verificar que la devolucion fue registrada correctamente",
+            "match": {
+              "location": "DevolucionStepDefinitions.seDebeVerificarQueLaDevolucionFueRegistradaCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@devolucion"
+          }
+        ]
+      }
+    ],
+    "name": "Registrar devolución de libros",
+    "description": "  Como administrador de la Biblioteca\n  Quiero registrar la devolución de un libro\n  Para actualizar la disponibilidad del inventario",
+    "id": "registrar-devolución-de-libros",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/registrarDevolucion.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 7231019600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que el administrador ha iniciado sesion en la Biblioteca",
+            "match": {
+              "location": "LoginComunStepDefinitions.queElAdministradorHaIniciadoSesionEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 604228100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que el administrador se encuentra en la pagina de libros",
+            "match": {
+              "location": "RegistroLibroStepDefinitions.queElAdministradorSeEncuentraEnLaPaginaDeLibros()"
+            },
+            "keyword": "Y "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2474600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verificar el registro exitoso de un libro",
+        "description": "",
+        "id": "registrar-libros-en-la-biblioteca;verificar-el-registro-exitoso-de-un-libro",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5145304200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "registra un nuevo libro con los siguientes datos",
+            "match": {
+              "location": "RegistroLibroStepDefinitions.registraUnNuevoLibro(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "titulo",
+                  "autor",
+                  "isbn",
+                  "cantidad"
+                ]
+              },
+              {
+                "cells": [
+                  "Clean Code",
+                  "Robert Martin",
+                  "9780132350884",
+                  "5"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 197650500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "se debe verificar que el libro fue registrado correctamente",
+            "match": {
+              "location": "RegistroLibroStepDefinitions.seDebeVerificarQueElLibroFueRegistradoCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registroLibro"
+          }
+        ]
+      }
+    ],
+    "name": "Registrar libros en la Biblioteca",
+    "description": "",
+    "id": "registrar-libros-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/registrarLibro.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 6782037000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que el administrador ha iniciado sesion en la Biblioteca",
+            "match": {
+              "location": "LoginComunStepDefinitions.queElAdministradorHaIniciadoSesionEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 677175800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que el administrador se encuentra en la pagina de prestamos",
+            "match": {
+              "location": "PrestamoStepDefinitions.queElAdministradorSeEncuentraEnLaPaginaDePrestamos()"
+            },
+            "keyword": "Y "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1218100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verificar el registro exitoso de un préstamo",
+        "description": "",
+        "id": "registrar-préstamos-en-la-biblioteca;verificar-el-registro-exitoso-de-un-préstamo",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3927473800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "registra un nuevo prestamo con los siguientes datos",
+            "match": {
+              "location": "PrestamoStepDefinitions.registraUnNuevoPrestamo(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "libro",
+                  "fechaDevolucion"
+                ]
+              },
+              {
+                "cells": [
+                  "anderson",
+                  "flash",
+                  "15/06/2026"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 184946000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "se debe verificar que el prestamo fue registrado correctamente",
+            "match": {
+              "location": "PrestamoStepDefinitions.seDebeVerificarQueElPrestamoFueRegistradoCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registroPrestamo"
+          }
+        ]
+      }
+    ],
+    "name": "Registrar préstamos en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero registrar préstamos de libros\n  Para controlar los libros entregados a los usuarios",
+    "id": "registrar-préstamos-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/registrarPrestamo.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 6593444100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el administrador ha iniciado sesion en la Biblioteca",
+            "match": {
+              "location": "LoginComunStepDefinitions.queElAdministradorHaIniciadoSesionEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3820200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verificar el registro exitoso de un usuario",
+        "description": "",
+        "id": "registrar-usuarios-en-la-biblioteca;verificar-el-registro-exitoso-de-un-usuario",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 561601500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "que el administrador se encuentra en la pagina de usuarios",
+            "match": {
+              "location": "RegistroUsuarioStepDefinitions.queElAdministradorSeEncuentraEnLaPaginaDeUsuarios()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5378038200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "registra un nuevo usuario con los siguientes datos",
+            "match": {
+              "location": "RegistroUsuarioStepDefinitions.registraUnNuevoUsuario(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "telefono",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "3001234567",
+                  "demo123"
+                ]
+              }
+            ],
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 231401000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "se debe verificar que el usuario fue registrado correctamente",
+            "match": {
+              "location": "RegistroUsuarioStepDefinitions.seDebeVerificarQueElUsuarioFueRegistradoCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registroUsuario"
+          }
+        ]
+      }
+    ],
+    "name": "Registrar usuarios en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero registrar nuevos usuarios\n  Para gestionar los préstamos de libros",
+    "id": "registrar-usuarios-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/registrarUsuario.feature",
     "tags": []
   }
 ]

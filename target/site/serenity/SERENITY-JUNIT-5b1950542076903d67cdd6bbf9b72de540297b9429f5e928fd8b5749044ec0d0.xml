@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Consultar prestamos vencidos en la Biblioteca" skipped="0" tests="1" time="10.12" timestamp="2026-06-11 05:17:00"><testcase name="Verificar la consulta de prestamos vencidos"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Consultar prestamos vencidos en la Biblioteca" skipped="0" tests="1" time="8.34" timestamp="2026-06-11 08:53:48"><testcase name="Verificar la consulta de prestamos vencidos"/></testsuite>
