@@ -17,7 +17,7 @@ public class LoginComunStepDefinitions {
                 Autenticarse.con(
                         new CredencialesIniciarSesion(
                                 "admin@biblioteca.com",
-                                "demo1234"
+                                "demo123"
                         )
                 )
         );

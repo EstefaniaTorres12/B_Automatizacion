@@ -1,16 +1,304 @@
 [
   {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 84761100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verificar la consulta de prestamos activos",
+        "description": "",
+        "id": "consultar-prestamos-activos-en-la-biblioteca;verificar-la-consulta-de-prestamos-activos",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9370270400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que el usuario ha iniciado sesion correctamente en la Biblioteca",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.queElUsuarioHaIniciadoSesionCorrectamenteEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 619956200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "ingrese al modulo de prestamos",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.ingreseAlModuloDePrestamos()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 503736100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "se debe verificar que se visualice el listado de prestamos activos",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.seDebeVerificarQueSeVisualiceElListadoDePrestamosActivos()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarPrestamosActivos"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar prestamos activos en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los prestamos activos\n  Para visualizar los prestamos vigentes registrados en el sistema",
+    "id": "consultar-prestamos-activos-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/CU05_consultar_prestamos_activos.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4479700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verificar la consulta de prestamos por usuario",
+        "description": "",
+        "id": "consultar-prestamos-por-usuario-en-la-biblioteca;verificar-la-consulta-de-prestamos-por-usuario",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6726202500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que el usuario ha iniciado sesion correctamente en la Biblioteca",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.queElUsuarioHaIniciadoSesionCorrectamenteEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1311795800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingrese al modulo de usuarios y consulte los prestamos de un usuario",
+            "match": {
+              "location": "ConsultarPrestamosPorUsuarioStepDefinitions.ingreseAlModuloDeUsuariosYConsulteLosPrestamosDeUnUsuario()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 335800200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "se debe verificar que se visualice el detalle de prestamos del usuario",
+            "match": {
+              "location": "ConsultarPrestamosPorUsuarioStepDefinitions.seDebeVerificarQueSeVisualiceElDetalleDePrestamosDelUsuario()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarPrestamosPorUsuario"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar prestamos por usuario en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los prestamos de un usuario\n  Para visualizar los prestamos asociados al usuario",
+    "id": "consultar-prestamos-por-usuario-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/CU06_consultar_prestamos_por_usuario.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2516700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verificar la consulta de prestamos vencidos",
+        "description": "",
+        "id": "consultar-prestamos-vencidos-en-la-biblioteca;verificar-la-consulta-de-prestamos-vencidos",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6670397900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que el usuario ha iniciado sesion correctamente en la Biblioteca",
+            "match": {
+              "location": "ConsultarPrestamosActivosStepDefinitions.queElUsuarioHaIniciadoSesionCorrectamenteEnLaBiblioteca()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1219910100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingrese al modulo de prestamos y consulte los prestamos vencidos",
+            "match": {
+              "location": "ConsultarPrestamosVencidosStepDefinitions.ingreseAlModuloDePrestamosYConsulteLosPrestamosVencidos()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 391018900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "se debe verificar que se visualice el listado de prestamos vencidos",
+            "match": {
+              "location": "ConsultarPrestamosVencidosStepDefinitions.seDebeVerificarQueSeVisualiceElListadoDePrestamosVencidos()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarPrestamosVencidos"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar prestamos vencidos en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los prestamos vencidos\n  Para visualizar los prestamos que excedieron la fecha de devolución",
+    "id": "consultar-prestamos-vencidos-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/CU07_consultar_prestamos_vencidos.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3014000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreparacionEscenario.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verificar la consulta de libros",
+        "description": "",
+        "id": "consultar-libros-en-la-biblioteca;verificar-la-consulta-de-libros",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6811397800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que el administrador se encuentra autenticado para consultar libros",
+            "match": {
+              "location": "ConsultarLibrosStepDefinitions.queElAdministradorSeEncuentraAutenticadoParaConsultarLibros()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2107730100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "ingrese al modulo de libros",
+            "match": {
+              "location": "ConsultarLibrosStepDefinitions.ingreseAlModuloDeLibros()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 351021500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "se debe verificar que se visualice el listado de libros",
+            "match": {
+              "location": "ConsultarLibrosStepDefinitions.seDebeVerificarQueSeVisualiceElListadoDeLibros()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarLibros"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar libros en la Biblioteca",
+    "description": "  Como administrador de la Biblioteca\n  Quiero consultar los libros registrados\n  Para visualizar el catalogo de libros disponible",
+    "id": "consultar-libros-en-la-biblioteca",
+    "keyword": "Característica",
+    "uri": "src/test/resources/features/CU08_consultar_libros.feature",
+    "tags": []
+  },
+  {
     "line": 3,
     "elements": [
       {
         "before": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 98929700,
-=======
-              "duration": 86372800,
->>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
+              "duration": 1446200,
               "status": "passed"
             },
             "match": {
@@ -27,11 +315,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 4763341600,
-=======
-              "duration": 5034226000,
->>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
+              "duration": 4550474200,
               "status": "passed"
             },
             "line": 11,
@@ -43,11 +327,7 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1550054000,
-=======
-              "duration": 1857044700,
->>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
+              "duration": 2101140400,
               "status": "passed"
             },
             "line": 12,
@@ -65,7 +345,7 @@
               {
                 "cells": [
                   "admin@biblioteca.com",
-                  "demo1234"
+                  "demo123"
                 ]
               }
             ],
@@ -73,11 +353,7 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 433928400,
-=======
-              "duration": 499041300,
->>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
+              "duration": 433895100,
               "status": "passed"
             },
             "line": 17,
@@ -101,7 +377,6 @@
     "keyword": "Característica",
     "uri": "src/test/resources/features/iniciarsesion.feature",
     "tags": []
-<<<<<<< HEAD
   },
   {
     "line": 3,
@@ -115,7 +390,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5544033900,
+              "duration": 6581528300,
               "status": "passed"
             },
             "line": 10,
@@ -127,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 612959500,
+              "duration": 695191700,
               "status": "passed"
             },
             "line": 11,
@@ -143,7 +418,7 @@
         "before": [
           {
             "result": {
-              "duration": 2968300,
+              "duration": 3730600,
               "status": "passed"
             },
             "match": {
@@ -160,7 +435,7 @@
         "steps": [
           {
             "result": {
-              "duration": 594852400,
+              "duration": 585887600,
               "status": "passed"
             },
             "line": 16,
@@ -172,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 139373300,
+              "duration": 185871000,
               "status": "passed"
             },
             "line": 18,
@@ -209,7 +484,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5102723600,
+              "duration": 7231019600,
               "status": "passed"
             },
             "line": 6,
@@ -221,7 +496,7 @@
           },
           {
             "result": {
-              "duration": 447287500,
+              "duration": 604228100,
               "status": "passed"
             },
             "line": 7,
@@ -237,7 +512,7 @@
         "before": [
           {
             "result": {
-              "duration": 2102300,
+              "duration": 2474600,
               "status": "passed"
             },
             "match": {
@@ -254,7 +529,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3139788200,
+              "duration": 5145304200,
               "status": "passed"
             },
             "line": 12,
@@ -284,7 +559,7 @@
           },
           {
             "result": {
-              "duration": 174259800,
+              "duration": 197650500,
               "status": "passed"
             },
             "line": 17,
@@ -321,7 +596,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4905160300,
+              "duration": 6782037000,
               "status": "passed"
             },
             "line": 12,
@@ -333,7 +608,7 @@
           },
           {
             "result": {
-              "duration": 429227300,
+              "duration": 677175800,
               "status": "passed"
             },
             "line": 13,
@@ -349,7 +624,7 @@
         "before": [
           {
             "result": {
-              "duration": 1842400,
+              "duration": 1218100,
               "status": "passed"
             },
             "match": {
@@ -366,7 +641,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3212532700,
+              "duration": 3927473800,
               "status": "passed"
             },
             "line": 18,
@@ -384,8 +659,8 @@
               },
               {
                 "cells": [
-                  "Usuario1",
-                  "Clean Code",
+                  "anderson",
+                  "flash",
                   "15/06/2026"
                 ]
               }
@@ -394,7 +669,7 @@
           },
           {
             "result": {
-              "duration": 148218600,
+              "duration": 184946000,
               "status": "passed"
             },
             "line": 23,
@@ -431,7 +706,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5023122100,
+              "duration": 6593444100,
               "status": "passed"
             },
             "line": 11,
@@ -447,7 +722,7 @@
         "before": [
           {
             "result": {
-              "duration": 1918600,
+              "duration": 3820200,
               "status": "passed"
             },
             "match": {
@@ -464,7 +739,7 @@
         "steps": [
           {
             "result": {
-              "duration": 497016000,
+              "duration": 561601500,
               "status": "passed"
             },
             "line": 16,
@@ -476,7 +751,7 @@
           },
           {
             "result": {
-              "duration": 3427477900,
+              "duration": 5378038200,
               "status": "passed"
             },
             "line": 18,
@@ -502,7 +777,7 @@
           },
           {
             "result": {
-              "duration": 207591200,
+              "duration": 231401000,
               "status": "passed"
             },
             "line": 23,
@@ -526,7 +801,5 @@
     "keyword": "Característica",
     "uri": "src/test/resources/features/registrarUsuario.feature",
     "tags": []
-=======
->>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
   }
 ]

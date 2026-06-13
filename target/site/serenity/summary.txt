@@ -1,20 +1,10 @@
-<<<<<<< HEAD
-Serenity report generated 11-06-2026 16:45
-11 test scenarios 
+Serenity report generated 11-06-2026 20:55
+15 test scenarios 
 
-Passed:             9
+Passed:             13
 Pending             0
 Failed:             1
 Failed with errors: 1
-=======
-Serenity report generated 11-06-2026 14:00
-6 test scenarios 
-
-Passed:             5
-Pending             0
-Failed:             1
-Failed with errors: 0
->>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
 Compromised:        0
 Pending:            0
 Ignored:            0

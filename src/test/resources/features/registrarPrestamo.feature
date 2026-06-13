@@ -17,7 +17,7 @@ Característica: Registrar préstamos en la Biblioteca
 
     Cuando registra un nuevo prestamo con los siguientes datos
 
-      | usuario  | libro      | fechaDevolucion |
-      | Usuario1 | Clean Code | 15/06/2026      |
+      | usuario  | libro | fechaDevolucion |
+      | anderson | flash | 15/06/2026      |
 
     Entonces se debe verificar que el prestamo fue registrado correctamente

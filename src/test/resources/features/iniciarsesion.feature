@@ -12,6 +12,6 @@ Escenario: Verificar la autenticacion exitosa en la pagina de Biblioteca
   Cuando ingrese las credenciales correctas
 
     | email                | password |
-    | admin@biblioteca.com | demo1234 |
+    | admin@biblioteca.com | demo123  |
 
   Entonces  se debe verificar que el usuario haya sido autenticado correctamente y redirigido a su pagina.

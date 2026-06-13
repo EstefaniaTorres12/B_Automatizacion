@@ -2,8 +2,4 @@
 "Agregar producto al carrito","Agregar producto al carrito","SUCCESS","2026-06-04T15:51:21.78-05:00[America/Bogota]","0.0","8.59"
 "Autenticar en la pagina de AlmaSoft","Verificar la autenticacion exitosa en la pagina de AlmaSoft","FAILURE","2026-06-04T08:47:43.779-05:00[America/Bogota]","0.0","29.02"
 "Autenticar en la pagina de","Verificar la autenticacion exitosa en la pagina de AlmaSoft","SUCCESS","2026-06-04T09:07:38.31-05:00[America/Bogota]","0.0","9.02"
-<<<<<<< HEAD
-"Autenticar en la pagina de Biblioteca","Verificar la autenticacion exitosa en la pagina de Biblioteca","SUCCESS","2026-06-11T16:45:10.026-05:00[America/Bogota]","0.0","6.96"
-=======
-"Autenticar en la pagina de Biblioteca","Verificar la autenticacion exitosa en la pagina de Biblioteca","SUCCESS","2026-06-11T14:00:15.339-05:00[America/Bogota]","0.0","7.61"
->>>>>>> b1369c88e0ec53e0d5bbe41a3e1b2738e705e304
+"Autenticar en la pagina de Biblioteca","Verificar la autenticacion exitosa en la pagina de Biblioteca","SUCCESS","2026-06-11T20:54:07.0764832-05:00[America/Bogota]","0.0","7.15"
